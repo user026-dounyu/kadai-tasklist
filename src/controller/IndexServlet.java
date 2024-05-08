@@ -52,7 +52,7 @@ public class IndexServlet extends HttpServlet {
         em.close();
 
         request.setAttribute("tasks", tasks);
-        request.setAttribute("tasks_count", tasks_count);     // 全件数
+        request.setAttribute("tasks_count", tasks_count);
         request.setAttribute("page", page);
 
 		request.setAttribute("tasks", tasks);
